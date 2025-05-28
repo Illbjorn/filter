@@ -1,6 +1,6 @@
 package filter
 
-type Filter[T any] = func(t T) bool
+type Filter[T any] func(t T) bool
 
 // And sends provided instance `T` to each `Filter[T]`, logically ANDing the
 // results. That is, if ANY filters return false the result of `And` will be

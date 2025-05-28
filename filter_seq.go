@@ -33,7 +33,7 @@ func AndSeqs[T any](it iter.Seq[T], filters ...Filter[T]) []T {
 		}
 	}
 
-	return Ands(ts)
+	return ts
 }
 
 // AndSeq accepts an iter.Seq[T] returning an iter.Seq[T] which produces only
