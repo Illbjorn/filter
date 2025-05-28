@@ -1,0 +1,12 @@
+# Editor files
+**/.vscode/
+**/.idea/
+**/.task/
+**/*.sublime-project
+**/*.sublime-workspace
+
+# ENV files
+**/.env
+
+# Local testing and tinkering
+main_test.go
